@@ -1,0 +1,25 @@
+category,Total,Men,Women,attendance_status,student_level,degree_status,entry_type,row_type
+All students,5324.0,1924.0,3400.0,All,All,,,Total
+Undergraduate,4303.0,1584.0,2719.0,All,Undergraduate,,,Subtotal
+Degree/certificate seeking,4087.0,1490.0,2597.0,All,Undergraduate,Degree/certificate seeking,,Subtotal
+First-time,944.0,363.0,581.0,All,Undergraduate,Degree/certificate seeking,First-time,leaf
+Transfer-ins,409.0,129.0,280.0,All,Undergraduate,Degree/certificate seeking,Transfer-ins,leaf
+Continuing,2734.0,998.0,1736.0,All,Undergraduate,Degree/certificate seeking,Continuing,leaf
+Nondegree/certificate seeking,216.0,94.0,122.0,All,Undergraduate,Nondegree/certificate seeking,,leaf
+Graduate,1021.0,340.0,681.0,All,Graduate,,,leaf
+Full-time students,3884.0,1438.0,2446.0,Full-time,All,,,Subtotal
+Undergraduate,3367.0,1263.0,2104.0,Full-time,Undergraduate,,,Subtotal
+Degree/certificate seeking,3362.0,1261.0,2101.0,Full-time,Undergraduate,Degree/certificate seeking,,Subtotal
+First-time,926.0,354.0,572.0,Full-time,Undergraduate,Degree/certificate seeking,First-time,leaf
+Transfer-ins,315.0,107.0,208.0,Full-time,Undergraduate,Degree/certificate seeking,Transfer-ins,leaf
+Continuing,2121.0,800.0,1321.0,Full-time,Undergraduate,Degree/certificate seeking,Continuing,leaf
+Nondegree/certificate seeking,5.0,2.0,3.0,Full-time,Undergraduate,Nondegree/certificate seeking,,leaf
+Graduate,517.0,175.0,342.0,Full-time,Graduate,,,leaf
+Part-time students,1440.0,486.0,954.0,Part-time,All,,,Subtotal
+Undergraduate,936.0,321.0,615.0,Part-time,Undergraduate,,,Subtotal
+Degree/certificate seeking,725.0,229.0,496.0,Part-time,Undergraduate,Degree/certificate seeking,,Subtotal
+First-time,18.0,9.0,9.0,Part-time,Undergraduate,Degree/certificate seeking,First-time,leaf
+Transfer-ins,94.0,22.0,72.0,Part-time,Undergraduate,Degree/certificate seeking,Transfer-ins,leaf
+Continuing,613.0,198.0,415.0,Part-time,Undergraduate,Degree/certificate seeking,Continuing,leaf
+Nondegree/certificate seeking,211.0,92.0,119.0,Part-time,Undergraduate,Nondegree/certificate seeking,,leaf
+Graduate,504.0,165.0,339.0,Part-time,Graduate,,,leaf

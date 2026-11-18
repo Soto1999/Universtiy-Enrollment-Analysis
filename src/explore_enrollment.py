@@ -107,3 +107,10 @@ published_total = df.loc[df["category"] == "All students", "Total"].iloc[0]
 
 assert leaf_total == published_total
 print(df.shape)
+
+
+#Create a CSV
+output_path = "data/enrollment_cleaned.csv"
+
+df.to_csv(output_path, index = False)
+print("Enrollment data exported successfuly.")
