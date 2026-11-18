@@ -12,7 +12,7 @@ A data analytics portfolio project using SQL, SQLite, Python, and data visualiza
 * SQLite
 * SQL
 * Pandas
-* Vs Code
+* VS Code
 
 # Data Used
 * MSU data files from IPEDS 2024 (Most Recent Available)

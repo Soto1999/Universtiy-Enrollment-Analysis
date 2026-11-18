@@ -17,3 +17,33 @@ FROM admissions
 WHERE category != 'Total'
 GROUP BY category
 ORDER BY total_applications DESC;
+
+SELECT
+    category,
+    applicants, 
+    admitted,
+    ROUND( admitted * 100.0 / nullif(applicants, 0) , 2) AS calculated_admission_rate
+FROM admissions
+WHERE category != 'Total';
+
+SELECT
+    category,
+    admission_rate AS stored_rate,
+    ROUND( admitted * 100.0 / nullif(applicants, 0) , 2) AS calculated_admission_rate
+FROM admissions
+WHERE category != 'Total';
+
+CREATE VIEW IF NOT EXISTS admissions_report AS
+SELECT
+    category,
+    applicants,
+    admitted,
+    ROUND (admitted * 100.0 / nullif(applicants, 0), 2) AS admission_rate
+FROM admissions;
+
+SELECT
+    category,
+    admission_rate
+FROM admissions_report
+WHERE category != 'Total'
+ORDER BY admission_rate DESC;
